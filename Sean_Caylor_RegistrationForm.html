@@ -5,6 +5,59 @@
     </head>
     <body>
         <h1>Registration Form</h1>
-        
+        <div>
+            <label for="f_name">First Name: *</label>
+            <input type="text" name="f_name" id="f_name">
+        </div>
+        <div>
+            <label for="l_name">Last Name: *</label>
+            <input type="text" name="l_name" id="l_name">
+        </div>
+        <div>
+            <label for="email_addy">Email Address: *</label>
+            <input type="email" name="email_addy" id="email_addy">
+        </div>
+        <div>
+            <label for="pword">Password: *</label>
+            <input type="password" name="pword" id="pword">
+        </div>
+        <div>
+            <label for="pword2">Confirm Password: *</label>
+            <input type="password" name="pword2" id="pword2">
+        </div>
+        <div>
+            <label for="bday">Birthday: *</label>
+            <input type="date" name="bday" id="bday">
+        </div>
+        <div>
+            <p>Gender Identity:</p>
+            <input type="radio" name="genderID" id="genderID" value="1">
+            <label for="genderM">Male</label>
+            <input type="radio" name="genderID" id="genderID" value="2">
+            <label for="genderF">Female</label>
+            <input type="radio" name="genderID" id="genderID" value="3">
+            <label for="genderNB">Non-Binary</label>
+            <input type="radio" name="genderID" id="genderID" value="4">
+            <label for="genderNo">Prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short description about myself:</p>
+            <textarea name="description" id="description" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="language">Favorite language:</label>
+            <select name="language" id="language">
+                <option value="1">HTML</option>
+                <option value="2">CSS</option>
+                <option value="3">JavaScript</option>
+                <option value="4">C#</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="updates" id="updates">
+            <label for="updates">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <p>* Indicates a require field</p>
     </body>
 </html>

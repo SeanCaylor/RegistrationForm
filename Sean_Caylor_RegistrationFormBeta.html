@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form Assignment</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <div>
+            <input type="text" name="f_name" id="f_name" placeholder="First Name">
+            <label>*</label>
+        </div>
+            <input type="text" name="l_name" id="l_name" placeholder="Last Name">
+            <label>*</label>
+        </div>
+        <div>
+            <input type="email" name="email_addy" id="email_addy" placeholder="Email Address">
+            <label>*</label>
+        </div>
+        <div>
+            <input type="password" name="pword" id="pword" placeholder="Password">
+            <label>*</label>
+        </div>
+        <div>
+            <input type="password" name="pword2" id="pword2" placeholder="Confirm Password">
+            <label>*</label>
+        </div>
+        <div>
+            <label>Date Of Birth:</label>
+            <p><input type="date" name="bday" id="bday"></p>
+        </div>
+        <div>
+            <p>Gender Identity:</p>
+            <select name="language" id="language" placeholder="Gender Identity">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Non-Binary</option>
+                <option value="4">Prefer not to answer</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="description" id="description" cols="30" rows="4" placeholder="A short description about myself:"></textarea>
+        </div>
+        <div>
+            <label for="language">Favorite language:</label>
+            <select name="language" id="language">
+                <option value="1">HTML</option>
+                <option value="2">CSS</option>
+                <option value="3">JavaScript</option>
+                <option value="4">C#</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="updates" id="updates">
+            <label for="updates">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <p>* Indicates a require field</p>
+    </body>
+</html>
